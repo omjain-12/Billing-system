@@ -44,7 +44,7 @@ public:
 	}
 };
 
-addItem(Bill b)
+void addItem(Bill b)
 {
 	bool close = false;
 	while (!close)
@@ -98,7 +98,7 @@ addItem(Bill b)
 	}
 }
 
-printBill()
+void printBill()
 {
 	system("cls");
 	int count = 0;
